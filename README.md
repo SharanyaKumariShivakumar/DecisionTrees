@@ -39,3 +39,7 @@ To avoid overfitting, trees are pruned. Pruning can be done by setting a maximum
 **Conclusion**
 
 Decision trees are a valuable tool for tasks involving classification and regression. They form the building blocks for more complex models like Random Forests and Gradient Boosted Trees. With proper setup and tuning, decision trees can be powerful models that are also intuitive and easily shared.
+
+
+DecisionTrees.ipynb implements a Decision Tree on the titanic dataset using the scikit-learn Decision Tree Classifier. The Decision Tree created initially overfits on the data, and pruning is performed to avoid overfitting. Alpha value to prune is selected based on the number of nodes, depth of the tree and alpha vs accuracy values for training and test datasets. 
+Data - titanic.csv file is included in this repository.
